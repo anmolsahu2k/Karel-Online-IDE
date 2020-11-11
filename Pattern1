@@ -1,0 +1,41 @@
+/**
+ * Welcome to the Stanford Karel IDE.
+ * This is a free space for you to 
+ * write any Karel program you want.
+ **/
+function main(){
+   putBeeper();
+   movefourtimes();
+   movefourtimes();
+   turnLeft();
+   move();
+   move();
+   putBeeper();
+   movefourtimes();
+   turnLeft();
+   move();
+   move();
+   putBeeper();
+   movefourtimes();
+   turnLeft();
+   move();
+   move();
+   putBeeper();
+   turnLeft();
+   move();
+   move();
+   putBeeper();
+}
+function movefourtimes()
+{
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+   turnRight();
+   move();
+   turnRight();
+   move();
+   putBeeper();
+   turnLeft();
+}
